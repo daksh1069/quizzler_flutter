@@ -99,9 +99,7 @@ class _QuizPageState extends State<QuizPage> {
                   ),
                 ),
                 onPressed: () {
-                  bool correctAnswer = quizBrain.getQuestionAnswer();
                   checkAnswer(true);
-
                   //The user picked true.
                 },
               ),
@@ -122,7 +120,6 @@ class _QuizPageState extends State<QuizPage> {
                   ),
                 ),
                 onPressed: () {
-                  bool correctAnswer = quizBrain.getQuestionAnswer();
                   checkAnswer(false);
                   //The user picked true.
                 },
